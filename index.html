@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>প্রথম আলো | বাংলা নিউজ পেপার</title>
+    <link rel="icon" type="image/png" href="sun logo.png">
+
+    <!-- Bootstrap CSS file link -->
+    <!-- <link rel="stylesheet"
+            href="bootstrap-5.3.8-dist/css/bootstrap.min.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <style>
+        .hover-img {
+            transition: transform 0.1s ease;
+            background-color: aqua;
+        }
+
+        .hover-img:hover {
+            transform: scale(1.1);
+        }
+
+        .hover-text {
+            transition: 0.3s;
+        }
+
+        .hover-text:hover {
+            color: #0d6efd;
+
+        }
+
+        .hover-small-text:hover {
+            color: #000000;
+
+        }
+
+        .hover-small-text {
+            transition: 0.3s;
+        }
+
+        .card img {
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .card {
+            overflow: hidden;
+        }
+
+        .card img {
+            transition: transform 0.8s ease;
+        }
+
+        .card:hover img {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+
+        <!-- Header Section -->
+        <div class="pb-3 border-bottom">
+            <div class="container">
+                <div class=" row mb-2">
+
+                    <!-- Prothom Alo logo -->
+                    <div class="col-md-3 mt-3">
+                        <a href="#"><img src="Prothom Alo.png" alt="prothom alo.com logo" class="img-fluid"
+                                style="width: 270px; height: 65px;">
+                        </a>
+                    </div>
+
+                    <!-- Breaking news -->
+                    <div class="col-md-3 mt-4 border-2 border-end overflow-hidden">
+                        <a href="https://www.prothomalo.com/video/international/5ioomr1l9g"
+                            class="nav-link d-flex gap-3">
+                            <img src="https://media.prothomalo.com/prothomalo-bangla%2F2026-05-03%2Fslbh6umk%2FWhatsApp-Image-2026-05-03-at-3.58.01-PM-1.jpeg?w=110&auto=format%2Ccompress&fmt=avif"
+                                alt="image2" class="img-fluid hover-img" style="width: 70px; height: 65px;">
+                            <small class="hover-text"><img
+                                    src="https://www.freepnglogos.com/uploads/play-button-png/red-play-button-icon-icons-15.png"
+                                    alt="play button" style="width: 12px; height: 12px;" class="me-1 img-fluid">রিলস
+                                বানাতে পানির
+                                ট্যাংকের ওপর, ১৬ ঘণ্টার অভিযানের পর
+                                উদ্ধার....</small>
+                        </a>
+                    </div>
+                    <div class="col-md-3 mt-4  border-2 border-end overflow-hidden">
+                        <a href="https://www.prothomalo.com/lifestyle/style/qxwpte614a" class="nav-link d-flex gap-3">
+                            <img src="https://media.prothomalo.com/prothomalo-bangla%2F2026-05-03%2F6s1zzi8n%2F684518134_1512379250257589_84153671550852708_n.jpg?rect=378%2C0%2C864%2C864&w=110&auto=format%2Ccompress&fmt=avif"
+                                alt="image1" class="img-fluid hover-img" style="width: 70px;height: 65px;">
+                            <small class="hover-text"><img
+                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiayQynOj33NCSC2ZRBzIIc14RdKTPvCx3Ng&s"
+                                    alt="camera button" style="width: 12px; height: 12px;"
+                                    class="me-1 img-fluid">সিনেমার
+                                প্রিমিয়ারে তারকাদের সাজ, দেখুন
+                                ছবিতে....</small>
+                        </a>
+                    </div>
+                    <div class="col-md-3 mt-4  overflow-hidden">
+                        <a href="https://www.prothomalo.com/video/bangladesh/qdgkvrdtw3" class="nav-link d-flex gap-3">
+                            <img src="https://media.prothomalo.com/prothomalo-bangla%2F2026-05-03%2Fi8d6r6xk%2FWEB.jpg?w=110&auto=format%2Ccompress&fmt=avif"
+                                alt="image3" class="img-fluid hover-img" style="width: 70px; height: 65px;">
+                            <small class="hover-text"><img
+                                    src="https://www.freepnglogos.com/uploads/play-button-png/red-play-button-icon-icons-15.png"
+                                    alt="play button" style="width: 12px; height: 12px;" class="me-1 img-fluid">ঢাকায়
+                                আসছে
+                                নারীদের জন্য পিঙ্ক বাস, মনোরেল, সাইকেল লেনসহ
+                                আরও সেবা....</small>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navbar left side Section -->
+        <div class="border-bottom border-2 border-secondary border-opacity-50 sticky-top">
+            <nav class="container navbar navbar-expand-lg bg-body" style="background-color:white">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item me-2">
+                                        <a class="nav-link hover-text"
+                                            href="https://www.prothomalo.com/collection/latest"><small><b>সর্বশেষ</b></small></a>
+                                    </li>
+                                    <li class="nav-item me-2">
+                                        <a class="nav-link hover-text"
+                                            href="https://www.prothomalo.com/bangladesh"><small><b>বাংলাদেশ</b></small></a>
+                                    </li>
+                                    <li class="nav-item me-2">
+                                        <a class="nav-link hover-text"
+                                            href="https://www.prothomalo.com/politics"><small><b>রাজনীতি</b></small></a>
+                                    </li>
+                                    <li class="nav-item me-2">
+                                        <a class="nav-link hover-text"
+                                            href="https://www.prothomalo.com/world"><small><b>বিশ্ব</b></small></a>
+                                    </li>
+                                    <li class="nav-item me-2">
+                                        <a class="nav-link hover-text"
+                                            href="https://www.prothomalo.com/business"><small><b>বাণিজ্য</b></small></a>
+                                    </li>
+                                    <li class="nav-item me-2">
+                                        <a class="nav-link hover-text"
+                                            href="https://www.prothomalo.com/opinion"><small><b>মতামত</b></small></a>
+                                    </li>
+                                    <li class="nav-item me-2">
+                                        <a class="nav-link hover-text"
+                                            href="https://www.prothomalo.com/sports"><small><b>খেলা</b></small></a>
+                                    </li>
+                                    <li class="nav-item me-2">
+                                        <a class="nav-link hover-text"
+                                            href="https://www.prothomalo.com/entertainment"><small><b>বিনোদন</b></small></a>
+                                    </li>
+                                    <li class="nav-item me-2">
+                                        <a class="nav-link hover-text"
+                                            href="https://www.prothomalo.com/chakri"><small><b>চাকরি</b></small></a>
+                                    </li>
+                                    <li class="nav-item me-2">
+                                        <a class="nav-link hover-text"
+                                            href="https://www.prothomalo.com/lifestyle"><small><b>জীবনযাপন</b></small></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link hover-text"
+                                            href="https://www.prothomalo.com/video"><small><b>ভিডিও</b></small></a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Navbar Right side Button -->
+                            <div class="col-md-4">
+                                <div class="container-fluid d-flex">
+                                    <div class="border-start border-end ">
+                                        <a href="https://www.prothomalo.com/search">
+                                            <button type="button" class="btn btn-body" data-bs-toggle="modal"
+                                                data-bs-target="#navbarSupportedContent"><small class="hover-text"><span
+                                                        class="h5">🔍</span>খুঁজুন</small></button>
+                                        </a>
+                                    </div>
+                                    <div class="border-end">
+                                        <a href="https://epaper.prothomalo.com/Home/DIndex?eid=1&edate=04/05/2026&sedId=1&pgid=502658&isProductPanel=true&MagazineEdID=0&MagEdDate=04/05/2026&isIssueRefresh=False&uemail="
+                                            target="_blank">
+                                            <button type="button" class="btn btn-body" data-bs-toggle="modal"
+                                                data-bs-target="#navbarSupportedContent"><small class="hover-text"><span
+                                                        class="h5">📰</span>ই-পেপার</small></button>
+                                        </a>
+                                    </div>
+                                    <div class="border-end ">
+                                        <a href="https://en.prothomalo.com/" target="_blank">
+                                            <button type="button" class="btn btn-body" data-bs-toggle="modal"
+                                                data-bs-target="#navbarSupportedContent"><small class="hover-text"><span
+                                                        class="h5">🌐</span>Eng</small></small></button>
+                                        </a>
+                                    </div>
+                                    <div class="border-end ">
+                                        <a
+                                            href="https://auth.prothomalo.com/sign-in-page?redirect_uri=https%3A%2F%2Fwww.prothomalo.com%2Fapi%2Fauth%2Fv1%2Foauth%2Ftoken&callback_uri=https%3A%2F%2Fwww.prothomalo.com%2F">
+                                            <button type="button" class="btn btn-body" data-bs-toggle="modal"
+                                                data-bs-target="#navbarSupportedContent"><small class="hover-text"><span
+                                                        class="h5">👤</span>Login</small></button>
+                                        </a>
+                                    </div>
+
+                                    <!-- Toggler icon -->
+                                    <div>
+                                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#navbarSupportedContent">
+                                            <span class="navbar-toggler-icon"></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Advertise Panel -->
+        <div class="container-fluid d-flex justify-content-center border-bottom">
+            <div class="container bg-secondary bg-opacity-10 my-3">
+                <br><br><br><br>
+            </div>
+        </div>
+
+        <div class="container my-4">
+            <div class="row">
+
+                <!-- LEFT SIDE -->
+                <div class="col-md-3 border-end border-2 border-secondary border-opacity-75 pe-3">
+                    <div class="mb-3 pb-3 border-bottom">
+                        <a href="https://www.prothomalo.com/world/india/cu0k5iijhe" class="nav-link hover-text">
+                            <article class="h6"><span class="text-danger">◉সরাসরি </span> <small
+                                    class="text-secondary">● </small><b> সামাজিক মাধ্যমে ‘জরুরি বার্তা’ দিলেন মমতা</b>
+                            </article>
+                        </a>
+                        <div>
+                            <a href="https://www.prothomalo.com/world/india/cu0k5iijhe" class="nav-link text-secondary hover-text">
+                                <small>
+                                    ২৩ ও ২৯ এপ্রিল দুই দফায় পশ্চিমবঙ্গ বিধানসভা নির্বাচনে ভোট গ্রহণ হয়। ২৩ জেলায় স্থাপিত
+                                    ৭৭টি কেন্দ্রে একযোগে আজ ভোট গণনা চলছে।...</small>
+                            </a>
+                        </div>
+                        <div class="overflow-hidden">
+                            <a href="#">
+                                <img src="https://media.prothomalo.com/prothomalo-bangla%2F2026-05-04%2Fw0x1dt8a%2FScreenshot-2.png?rect=81%2C0%2C381%2C254&w=420&auto=format%2Ccompress&fmt=avif"
+                                    alt="image" class="img-fluid hover-img">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="mb-3 pb-3 border-bottom overflow-hidden">
+                        <a href="#" class="nav-link hover-text">
+                            <img src="https://media.prothomalo.com/prothomalo-bangla%2F2026-05-01%2Ff0fvcauy%2Fbnp.jpeg?rect=0%2C0%2C1368%2C912&w=180&auto=format%2Ccompress&fmt=avif"
+                                alt="Image" class="me-2 img-fluid hover-img">
+                            <article class="mt-2 h6"><b>নয়াপল্টনে শ্রমিক দলের সমাবেশ চলছে,
+                                    নেতা–কর্মীদের
+                                    ভিড়</b></article>
+                            <a href="#" class="nav-link">
+                                <p class="text-secondary"><small>সমাবেশ শুরুর আগেই ফকিরাপুল
+                                        মোড় থেকে কাকরাইল পর্যন্ত রাস্তা ছাপিয়ে শ্রমিক
+                                        দলের নেতা–কর্মীদের
+                                        ভিড় অলিগলিতে ছড়িয়ে পড়ে। ব্যানার, ফেস্টুন আর
+                                        জাতীয় পতাকায় ভরে যায় পুরো</small>
+                            </a><br><br>
+                            <small>৪৭ মিনিট আগে</small>
+                        </a>
+                        </p>
+                    </div>
+
+                    <div class="mb-3 pb-3 border-bottom overflow-hidden ">
+                        <a href="#" class="nav-link d-flex">
+                            <img src="https://media.prothomalo.com/prothomalo-bangla%2F2026-05-01%2F06d7slwy%2FCumillaDH175220260501IMG20260501142740.jpg?rect=105%2C0%2C998%2C665&w=100&auto=format%2Ccompress&fmt=avif"
+                                alt="" class="hover-img" style="width: 80px; height: 60px">
+                            <article class="mt-2 h6 ms-3 hover-text"><b>স্বাধীনতার আগের জামায়াত আর এখনকার
+                                    জামায়াত এক
+                                    নয়: গোলাম পরওয়ার</b></article>
+                        </a>
+                    </div>
+
+                    <div class="mb-3 pb-3 border-bottom">
+                        <h6 class="text-danger">◉সরাসরি</h6>
+                        <p><b>পাকিস্তানি মধ্যস্থতাকারীদের কাছে নতুন প্রস্তাব
+                                দিয়েছে ইরান</b></p>
+                        <img src="https://media.prothomalo.com/prothomalo-bangla%2F2026-04-11%2Frn3lqufi%2Fpakistan-add-1.jpg?rect=0%2C88%2C960%2C640&w=100&auto=format%2Ccompress&fmt=avif"
+                            alt>
+                    </div>
+
+                    <div class="mb-3 pb-3 border-bottom">
+                        <p class="text-secondary">ইরান যুদ্ধে যুক্তরাষ্ট্রের
+                            এ পর্যন্ত ব্যয় আসলে কত</p>
+                    </div>
+
+                    <div class="mb-3 pb-3 border-bottom">
+                        <p class="text-secondary">ভোট গণনা ঘিরে পশ্চিমবঙ্গের
+                            রাজনীতিতে উত্তাপ, কেন্দ্র পাহারায় নিজেই গেলেন
+                            মমতা</p>
+                    </div>
+
+                    <div class="mb-3 pb-3 border-bottom">
+                        <p class="text-secondary">‘কামে আইমু, যাইমু,
+                            দিবস–টিবস জানি না’</p>
+                    </div>
+
+                    <div class="mb-3 pb-3 border-bottom">
+                        <p class="text-secondary">ওই শটের নাম জানেন না
+                            শামীমও, মারতে চান প্রথম বল থেকেই</p>
+                    </div>
+
+                    <div>
+                        <p class="text-secondary">ইরানে আবার হামলা চালাতে
+                            ট্রাম্পের তোড়জোড়, ‘যন্ত্রণাদায়ক’ পাল্টা হামলার
+                            হুমকি তেহরানের</p>
+                    </div>
+
+                </div>
+
+                <!-- MIDDLE -->
+                <div class="col-md-6 border-end border-end border-2 border-secondary border-opacity-75 pe-3">
+
+                    <div class="mb-3 pb-3 border-bottom">
+                        <img src="https://media.prothomalo.com/prothomalo-bangla%2F2026-05-01%2Fzzxv57f8%2Fschool.jpg?rect=225%2C0%2C750%2C500&w=420&auto=format%2Ccompress&fmt=avif"
+                            alt="Image-1" class="img-fluid mb-2" style="width: 300px; height: 175px;">
+                        <p><small class="text-secondary">উইলস লিটল ফ্লাওয়ার
+                                স্কুলছবি: স্কুলের পেজ থেকে</small></p>
+                        <h5 class="ms-2"><b>উইলস লিটল ফ্লাওয়ার স্কুলের ঘটনা
+                                নিয়ে বিভিন্ন পক্ষ কী বলছে</b></h5>
+                        <p class="text-secondary ">শ্রেণিকক্ষে এক শিক্ষকের
+                            সঙ্গে এক শিক্ষার্থীর একটি
+                            ‘অপ্রীতিকর’ ঘটনা ও তার পরবর্তী ঘটনাকে কেন্দ্র
+                            করে প্রতিষ্ঠানের ভেতরে অসন্তোষ তৈরি
+                            হয়েছে।<br><br>
+                            <small>৩ ঘণ্টা আগে</small>
+                        </p>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-6 border-end">
+                            <div class="pb-3 mb-3 border-bottom">
+                                <h6 class="text-dark h5">‘কামে আইমু, যাইমু,
+                                    দিবস–টিবস জানি না’</h6>
+                                <p class="text-secondary ">শুক্কুর আলীর
+                                    কাছেও জানতে চাই, আজ মে দিবস। এই দিনেও
+                                    তিনি কাজ
+                                    করছেন কেন? উত্তরে তিনি
+                                    বললেন, ‘খাই অইল কাজ কইরা, কাজ না করলে
+                                    খামু...<br><br>
+                                    <small>১ ঘণ্টা আগে</small>
+                                </p>
+                                <img src="https://media.prothomalo.com/prothomalo-bangla%2F2026-05-01%2Fasgi1xnv%2Fvan-rider-1.jpeg?rect=110%2C0%2C1053%2C1053&w=180&auto=format%2Ccompress&fmt=avif"
+                                    alt>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="pb-3 border-bottom">
+                                <img src="https://media.prothomalo.com/prothomalo-bangla%2F2026-05-01%2Fwzfd8t1n%2FHormuz.jpg?rect=195%2C0%2C641%2C641&w=180&auto=format%2Ccompress&fmt=avif"
+                                    alt="iamge" class="me-2 image-fluid" style="width: 100px; height: 100px;">
+                                <h6 class="text-dark h5 mt-2">ইরানে আবার
+                                    হামলা
+                                    চালাতে ট্রাম্পের তোড়জোড়, ‘যন্ত্রণাদায়ক’
+                                    পাল্টা
+                                    হামলার হুমকি তেহরানের</h6>
+                                <p class="text-secondary">বেশ কিছুদিন ধরেই
+                                    যুক্তরাষ্ট্র এ ধরনের সম্ভাব্য বিকল্প
+                                    পথগুলোকে নিজেদের বিবেচনায়
+                                    রেখেছিল। তবে গত বুধবার সংবাদমাধ্যম
+                                    অ্যাক্সিওস প্রথম সম্ভাব্য ব্রিফিংয়ের খবর
+                                    প্রকাশ
+                                    করে।.... <br><br>
+                                    <small>২ ঘণ্টা আগে</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-3 pb-3 mt-3 border-bottom">
+                        <img src="https://media.prothomalo.com/prothomalo-bangla%2F2026-05-01%2F7ykr8ais%2FWhatsApp-Image-2026-05-01-at-6.33.42-PM.jpeg?rect=0%2C0%2C1368%2C912&w=420&auto=format%2Ccompress&fmt=avif"
+                            alt="iamge" class="img-fluid mb-2" style="width: 300px; height: 200px;">
+                        <p><small class="text-secondary">মহান মে দিবস
+                                উপলক্ষে জাতীয়তাবাদী শ্রমিক দল আয়োজিত সমাবেশে
+                                বক্তব্য দেন প্রধানমন্ত্রী তারেক রহমান। আজ
+                                শুক্রবার বিকেলে রাজধানীর নয়াপল্টনেছবি:
+                                তানভীর
+                                আহাম্মেদ</small></p>
+                        <h5 class="ms-2"><b>বন্ধ কলকারখানা চালুর উদ্যোগ
+                                নিয়েছি: প্রধানমন্ত্রী</b></h5>
+                        <p class="text-secondary ">শ্রেণিকক্ষে এক শিক্ষকের
+                            ঢাকায় যানজট নিরসনে হকার উচ্ছেদ করা হলেও তাদের
+                            পুনর্বাসনের নির্দেশ দিয়েছেন বলে জানিয়েছেন
+                            প্রধানমন্ত্রী তারেক রহমান।
+                            <br><br>
+                            <small>১৪ মিনিট আগে</small>
+                        </p>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4 border-end">
+                            <div class="pb-3 mb-3 border-bottom">
+                                <img src="https://media.prothomalo.com/prothomalo-bangla%2F2026-05-01%2Fi6kbv6tp%2FHajj-CampTheftIncidentArrestees.jpg?rect=0%2C67%2C1600%2C1067&w=622&auto=format%2Ccompress&fmt=avif"
+                                    alt style="width: 200px; height: 125px;" class="image-fluid">
+                                <p><b>ছদ্মবেশে হজ ক্যাম্পে ঢুকে চুরির ঘটনায়
+                                        দুজন গ্রেপ্তার, ১৭
+                                        হাজার সৌদি রিয়াল উদ্ধার</b>
+                                    ...<br>
+                                    <small class="text-secondary">৪২ মিনিট
+                                        আগে</small>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="pb-3 border-bottom">
+                                <img src="https://media.prothomalo.com/prothomalo-bangla%2F2026-05-01%2Fo0vfzh79%2F68597975614054425816281962877939683476215690n.jpg?rect=0%2C0%2C608%2C405&w=280&auto=format%2Ccompress&fmt=avif"
+                                    class="me-2 image-fluid" style="width: 200px; height: 125px;" alt>
+                                <p><b>কেপটাউনে শাহরুখের সঙ্গে অন্তঃসত্ত্বা
+                                        দীপিকা, ছবি ভাইরাল
+                                        .... </b><br><br>
+                                    <small class="text-secondary">৪৫ মিনিট
+                                        আগে</small>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="pb-3 border-bottom">
+                                <img src="https://media.prothomalo.com/prothomalo-bangla%2F2026-05-01%2F9d8fyp88%2FWEB.jpg?rect=0%2C0%2C800%2C533&w=280&auto=format%2Ccompress&fmt=avif"
+                                    alt style="width: 200px; height: 125px;">
+                                <p><b>ট্রাম্পের যুদ্ধের হুমকিতে তেলের দাম
+                                        আকাশছোঁয়া, সামনে কী
+                                    </b></p><br>
+                                <small class="text-secondary">১ ঘণ্টা
+                                    আগে</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4 border-end">
+                            <div class="pb-3 mb-3">
+                                <h6><b>ছদ্মবেশে হজ ক্যাম্পে ঢুকে চুরির ঘটনায়
+                                        দুজন গ্রেপ্তার, ১৭ হাজার সৌদি রিয়াল
+                                        উদ্ধার
+                                    </b></h6>
+                                <p class="text-secondary"> আশকোনা ক্যাম্পে
+                                    হজযাত্রীর ব্যাগ থেকে ২২
+                                    হাজার সৌদি রিয়াল চুরির ঘটনায় দুজনকে
+                                    গ্রেপ্তার করেছে পুলিশ। উদ্ধার হয়েছে ১৭
+                                    হাজার রিয়াল ও ৯০ হাজার টাকা।
+                                    ...<br><br>
+                                    <small class="text-secondary">১ ঘণ্টা
+                                        আগে</small>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="pb-3 mb-3">
+                                <h6><b>ডোবায় ভাসছে বিপুল পরিমাণ সরকারি
+                                        ওষুধ</b></h6>
+                                <p class="text-secondary">ডোবায় ভাসমান
+                                    সরকারি ওষুধের ভিডিও এবং ছবি
+                                    সামাজিক যোগাযোগমাধ্যমে ছড়িয়ে পড়ার পর
+                                    নড়েচড়ে বসেছে উপজেলা স্বাস্থ্য বিভাগ।
+                                    ....<br><br>
+                                    <small class="text-secondary">২ ঘণ্টা
+                                        আগে</small>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="pb-3 mb-3">
+                                <h6><b>বিশিষ্ট শিক্ষাবিদ নওশাবা খাতুনের
+                                        ইন্তেকাল</b></h6>
+                                <p class="text-secondary">নওশাবা খাতুন তাঁর
+                                    সন্তান, নাতি-নাতনি এবং
+                                    প্রপৌত্র-প্রপৌত্রী রেখে গেছেন। খ্যাতিমান
+                                    বিজ্ঞানী ফিরদৌসী কাদরী তাঁর
+                                    মেয়ে।</p><br>
+                                <small class="text-secondary">৩ ঘণ্টা
+                                    আগে</small>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- RIGHT SIDE -->
+                <div class="col-md-3">
+                    <div class="pb-3 mb-3 border-bottom">
+                        <p class="text-secondary">সর্বশেষ সংবাদ</p>
+                        <img src="prothom alo logo.png" alt style="width: 300px; height:auto;" class="p-5">
+                        <p class="text-danger"><b>সংবাদ সমূহ</b></p>
+                    </div>
+
+                    <div class="mb-3 pb-3 border-bottom">
+                        <h6 class="text-danger"><b>মতামত◉পশ্চিমবঙ্গে
+                                ভোটের হাওয়া দিদি না মোদির দিকে গেল?</b></h6>
+                        <div>
+                            <img src="https://media.prothomalo.com/prothomalo-bangla%2F2022-09%2F152aa34f-5a08-421c-9ad5-af9fdd6c94b8%2FUntitled_1.jpg?rect=0%2C0%2C1600%2C1067&w=180&auto=format%2Ccompress&fmt=avif"
+                                alt="image" class="me-2 rounded">
+                            <p class="text-secondary mt-2">নির্বাচনের
+                                জয়–পরাজয়ে
+                                বাঙালি পরিচয় ও সংস্কৃতির
+                                আবেগ বড় ভূমিকা রাখতে পারে। অনেকের ধারণা,
+                                বিজেপি ক্ষমতায় গেলে পশ্চিমবঙ্গের নিজস্ব
+                                সংস্কৃতি ও ভাষা হুমকির মুখে পড়বে।<br><br>
+                                <small>২ ঘণ্টা আগে</small>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="mb-3 pb-3 border-bottom">
+                        <h6 class="text-dark"><b>মহিউদ্দিন আহমদের কলাম
+                                রেলযাত্রায় রীতিমতো বিপ্লব ঘটে যাবে,
+                                যদি...</b></h6><br>
+                        <img src="https://media.prothomalo.com/prothomalo-bangla%2F2026-05-01%2F1szanaih%2FMasukArt-30042026color.jpg?rect=23%2C0%2C1955%2C1303&w=180&auto=format%2Ccompress&fmt=avif"
+                            alt style="width: 100px; height:50px;">
+                        <small class="text-secondary">৬ ঘণ্টা আগে.</small>
+                    </div>
+
+                    <div class="mb-3 pb-3 border-bottom">
+                        <img src="https://media.prothomalo.com/prothomalo-bangla%2F2026-05-01%2Flb2rhwpj%2Fmamata.jpg?rect=125%2C0%2C1350%2C900&w=180&auto=format%2Ccompress&fmt=avif"
+                            alt>
+                        <h6 class="mt-2"><b>ভোট গণনা ঘিরে পশ্চিমবঙ্গের
+                                রাজনীতিতে উত্তাপ, কেন্দ্র পাহারায় নিজেই
+                                গেলেন
+                                মমতা</b></h6>
+                        <br>
+                        <small class="text-secondary">১ ঘণ্টা আগে</small>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div>
+            <div class="container-fluid bg-secondary bg-opacity-10 p-5 mt-3 mb-3">
+                <br><br><br><br><br><br><br><br>
+            </div>
+        </div>
+    </div>
+
+    <div class="container d-flex mt-3 border-bottom border-5 border-primary">
+        <div class="mb-3">
+            <small><b>আলোচিত বিষয়:</b></small>
+            <small class="border rounded ms-2 bg-secondary bg-opacity-10">যুক্তরাষ্ট্র</small>
+            <small class="border rounded ms-2 bg-secondary bg-opacity-10">ইরান</small>
+            <small class="border rounded ms-2 bg-secondary bg-opacity-10">বিএনপি</small>
+            <small class="border rounded ms-2 bg-secondary bg-opacity-10">ইসরায়েল</small>
+            <small class="border rounded ms-2 bg-secondary bg-opacity-10">যুক্তরাষ্ট্র–ইসরায়েলের
+                সঙ্গে ইরানের
+                যুদ্ধ</small>
+            <small class="border rounded ms-2 bg-secondary bg-opacity-10">চট্টগ্রাম
+                বিভাগ</small>
+            <small class="border rounded ms-2 bg-secondary bg-opacity-10">আরব
+                বিশ্ব</small>
+            <small class="border rounded ms-2 bg-secondary bg-opacity-10">শিক্ষার্থী</small>
+            <small class="border rounded ms-2 bg-secondary bg-opacity-10">ত্রয়োদশ
+                জাতীয় সংসদ</small>
+            <small class="border rounded ms-2 bg-secondary bg-opacity-10">সংস্কৃতি</small>
+            <small class="border rounded ms-2 bg-secondary bg-opacity-10">Ssmallorts</small>
+            <small class="border rounded ms-2 bg-secondary bg-opacity-10">সংস্কৃতি</small>
+        </div>
+    </div>
+
+    <div class="container border-bottom mt-3">
+        <a href="#" class="nav-link hover-text">
+            <h5><b>ভিডিও</b><span class="text-danger h3"> ></span></h5>
+        </a>
+        <div class="container my-5">
+            <div id="newsCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <div class="row">
+
+                            <!-- Card 1 -->
+                            <div class="col-md-3">
+                                <div class="card bg-info bg-opacity-25">
+                                    <img src="https://media.prothomalo.com/prothomalo-bangla%2F2026-05-03%2F39e6rbrj%2FWEB.jpg?rect=0%2C0%2C800%2C533&w=390&auto=format%2Ccompress&fmt=avif"
+                                        alt="image" class="card-img-top img-fluid"> <small
+                                        class="position-absolute start-0 ">▶️</small>
+                                    <div class="card-body">
+                                        <a href="https://www.prothomalo.com/video/bangladesh/3qwbw4ih32" target="_self"
+                                            class="nav-link hover-text">
+                                            <h6 class="card-title text-center"><b>শ্রীমঙ্গলে
+                                                    নামাজরত অবস্থায় মুসল্লিকে
+                                                    হত্যা, অভিযুক্ত
+                                                    আটক</b></h6><br>
+                                        </a>
+                                        <p class="card-text text-secondary text-center"><small>শ্রীমঙ্গলে
+                                                মসজিদের ভেতরে
+                                                এক প্রবীণ মুসল্লিকে হত্যা করা
+                                                হয়েছে। ৩ মে ফজরের নামাজের সময়
+                                                পশ্চিম লইয়ারকুল ফুরকানিয়া জামে
+                                                মসজিদে এই
+                                                ঘটনা
+                                                ঘটে। এ ঘটনায় জড়িত সন্দেহে একজনকে
+                                                আটক করেছে পুলিশ। বিস্তারিত ভিডিও
+                                                প্রতিবেদন...</small></p><br>
+                                        <p class="text-center text-secondary"><small>৭
+                                                ঘন্টা আগে</small></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card 2 -->
+                            <div class="col-md-3">
+                                <div class="card bg-info bg-opacity-25">
+                                    <img src="https://media.prothomalo.com/prothomalo-bangla%2F2026-05-03%2Fzev5tpro%2F2.jpg?rect=0%2C0%2C800%2C533&w=390&auto=format%2Ccompress&fmt=avif"
+                                        alt="image" class="card-img-top img-fluid">
+                                    <div class="card-body">
+                                        <a href="https://www.prothomalo.com/video/bangladesh/0f7opqvate" target="_self"
+                                            class="nav-link hover-text">
+                                            <h6 class="card-title text-center"><b>শপথ
+                                                    নিলেন সংরক্ষিত নারী আসনের
+                                                    সংসদ
+                                                    সদস্যরা</b></h6><br>
+                                        </a>
+                                        <p class="card-text text-secondary text-center"><small>ত্রয়োদশ
+                                                জাতীয় সংসদের
+                                                সংরক্ষিত নারী আসনে নবনির্বাচিত
+                                                সংসদ সদস্যরা শপথ নিয়েছেন। শপথ
+                                                পাঠ করিয়েছেন জাতীয় সংসদের
+                                                স্পিকার হাফিজ
+                                                উদ্দিন আহমদ। ৩ মে রাত ৯টায় সংসদ
+                                                ভবনের শপথকক্ষে তাঁদের শপথবাক্য
+                                                পাঠ করানো
+                                                হয়। বিস্তারিত
+                                                ভিডিওতে...</small></p>
+                                        <p class="text-center text-secondary"><small>৮
+                                                ঘন্টা আগে</small></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card 3 -->
+                            <div class="col-md-3">
+                                <div class="card bg-info bg-opacity-25">
+                                    <img src="https://media.prothomalo.com/prothomalo-bangla%2F2026-05-03%2Frr792lxt%2Feducation-minister.jpg?rect=6%2C0%2C864%2C576&w=390&auto=format%2Ccompress&fmt=avif"
+                                        alt="image" class="card-img-top img-fluid">
+                                    <div class="card-body">
+                                        <a href="https://www.prothomalo.com/video/bangladesh/3r9b3y6exr" target="_self"
+                                            class="nav-link hover-text">
+                                            <h6 class="card-title text-center"><b>আটকে
+                                                    থাকা প্রাথমিক বিদ্যালয়ের
+                                                    শিক্ষক
+                                                    নিয়োগ
+                                                    শিগগিরই:
+                                                    শিক্ষামন্ত্রী</b></h6><br>
+                                        </a>
+                                        <p class="card-text text-secondary text-center"><small>চূড়ান্ত
+                                                ফল প্রকাশের পর
+                                                আটকে থাকা ১৪ হাজারের বেশি
+                                                প্রার্থীকে শিগগিরই সরকারি
+                                                প্রাথমিক বিদ্যালয়ের সহকারী
+                                                শিক্ষক হিসেবে নিয়োগ
+                                                দেওয়া হবে বলে জানিয়েছেন
+                                                শিক্ষামন্ত্রী আ ন ম এহছানুল হক
+                                                মিলন। ৩ মে
+                                                রাজধানীতে জেলা প্রশাসক
+                                                (ডিসি)।</small></p><br>
+                                        <p class="text-center text-secondary"><small>৮
+                                                ঘন্টা আগে</small></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card 4 -->
+                            <div class="col-md-3">
+                                <div class="card bg-info bg-opacity-25">
+                                    <img src="https://media.prothomalo.com/prothomalo-bangla%2F2026-05-03%2F55b73w0k%2FAudioThumbnail.jpg?rect=10%2C0%2C1620%2C1080&w=390&auto=format%2Ccompress&fmt=avif"
+                                        alt="iamge" class="card-img-top img-fluid">
+                                    <div class="card-body">
+                                        <a href="https://www.prothomalo.com/video/bangladesh/dza5g673eo" target="_self"
+                                            class="nav-link hover-text">
+                                            <h6 class="card-title text-center"><small class="text-danger h6"><b>অডিও
+                                                        সংবাদ
+                                                    </b></small><small class="text-secondary">●
+                                                </small><b>১৬ ডিআইজি ও
+                                                    ১৭
+                                                    পুলিশ কর্মকর্তাকে অবসরে
+                                                    পাঠাল সরকার | পশ্চিমবঙ্গে
+                                                    ভোটগণনা সোমবার</b>
+                                            </h6><br>
+                                        </a>
+                                        <p class="card-text text-secondary text-center"><small>১৬
+                                                ডিআইজি ও ১৭ পুলিশ
+                                                কর্মকর্তাকে অবসরে পাঠাল সরকার |
+                                                পশ্চিমবঙ্গে ভোটগণনা সোমবার| ১৬
+                                                ডিআইজি ও
+                                                ১৭ পুলিশ কর্মকর্তাকে অবসরে পাঠাল
+                                                সরকার সরকার | পশ্চিমবঙ্গে
+                                                ভোটগণনা
+                                                সোমবার</small></p>
+                                        <p class="text-center text-secondary"><small>৮
+                                                ঘন্টা আগে</small></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="row">
+
+                            <!-- Card 5 -->
+                            <div class="col-md-3">
+                                <div class="card bg-info bg-opacity-25">
+                                    <img src="https://media.prothomalo.com/prothomalo-bangla%2F2026-05-03%2F77c2cdmw%2FWEB.jpg?rect=0%2C0%2C800%2C533&w=390&auto=format%2Ccompress&fmt=avif"
+                                        alt="image" class="card-img-top img-fluid">
+                                    <div class="card-body">
+                                        <a href="https://www.prothomalo.com/video/international/zdkk936n1t"
+                                            target="_self" class="nav-link hover-text">
+                                            <h6 class="card-title text-center"><small class="text-danger"><b>বার্তাকক্ষ
+                                                    </b></small class="text-secondary">●
+                                                <small></small><b>পশ্চিমবঙ্গে
+                                                    ভোট: কে
+                                                    হচ্ছেন
+                                                    মুখ্যমন্ত্রী?</b>
+                                            </h6>
+                                        </a><br>
+                                        <p class="card-text text-secondary text-center">আলোচক:
+                                            শুভজিৎ বাগচী
+                                            কলকাতা প্রতিনিধি, প্রথম আলো
+                                            সঞ্চালনা:
+                                            ফিরোজ চৌধুরী</p><br>
+                                        <p class="text-center text-secondary"><small>১০
+                                                ঘন্টা আগে</small></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card 6 -->
+                            <div class="col-md-3">
+                                <div class="card bg-info bg-opacity-25">
+                                    <img src="https://media.prothomalo.com/prothomalo-bangla%2F2026-05-03%2F67zd0jpc%2FWEB.jpg?rect=0%2C0%2C800%2C533&w=390&auto=format%2Ccompress&fmt=avif"
+                                        alt="image" class="card-img-top img-fluid">
+                                    <div class="card-body">
+                                        <a href="https://www.prothomalo.com/video/international/cvkh6soteb"
+                                            target="_self" class="nav-link hover-text">
+                                            <h6 class="card-title text-center"><b>ফকল্যান্ড
+                                                    দ্বীপপুঞ্জ নিয়ে নতুন করে
+                                                    উত্তাপ, এই
+                                                    ভূখণ্ডের মালিক
+                                                    কে?</b></h6>
+                                        </a><br>
+                                        <p class="card-text text-secondary text-center"><small>দক্ষিণ
+                                                আটলান্টিকের ছোট এক
+                                                দ্বীপপুঞ্জ ফকল্যান্ড। কিন্তু
+                                                এর দখল নিয়ে শতাব্দীজুড়ে
+                                                টানাপোড়েন।
+                                                ব্রিটেনের…</small></p><br>
+                                        <p class="text-center text-secondary"><small>৫৩
+                                                মিনিট আগে</small></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card 7 -->
+                            <div class="col-md-3">
+                                <div class="card bg-info bg-opacity-25">
+                                    <img src="https://media.prothomalo.com/prothomalo-bangla%2F2026-05-03%2Fabkjsx9l%2FWEB.jpg?rect=0%2C0%2C800%2C533&w=390&auto=format%2Ccompress&fmt=avif"
+                                        alt="image" class="card-img-top img-fluid">
+                                    <div class="card-body">
+                                        <a href="https://www.prothomalo.com/video/bangladesh/s780ef91st" target="_self"
+                                            class="nav-link hover-text">
+                                            <h6 class="card-title text-center"><b>পানিতে
+                                                    ভাসছে কৃষকের স্বপ্ন,
+                                                    ফসলের
+                                                    দুর্দশা দেখে
+                                                    হাসপাতালে ৩
+                                                    কৃষক</b></h6>
+                                        </a>
+                                        <p class="card-text text-secondary text-center"><small>ব্রাহ্মণবাড়িয়ার
+                                                নাসিরনগরে
+                                                টানা বৃষ্টিতে হাওরের হাজার
+                                                হাজার বিঘা জমির ধান এখন
+                                                পানির নিচে। চোখের
+                                                সামনে স্বপ্ন তলিয়ে যাওয়ার এই
+                                                দৃশ্য সইতে না পেরে
+                                                স্ট্রোক...</small></p>
+                                        <p class="text-center text-secondary"><small>৯
+                                                ঘন্টা আগে</small></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card 8 -->
+                            <div class="col-md-3">
+                                <div class="card bg-info bg-opacity-25">
+                                    <img src="https://media.prothomalo.com/prothomalo-bangla%2F2026-05-03%2Fkelqysu9%2FWEB.jpg?rect=0%2C0%2C800%2C533&w=390&auto=format%2Ccompress&fmt=avif"
+                                        alt="image" class="card-img-top img-fluid">
+                                    <div class="card-body">
+                                        <a href="https://www.prothomalo.com/video/sports/wnh20kept9" target="_self"
+                                            class="nav-link hover-text">
+                                            <h6 class="card-title text-center"><b>আর্সেনাল
+                                                    নাকি ম্যানচেস্টার সিটি,
+                                                    কে
+                                                    জিতবে ইংলিশ
+                                                    প্রিমিয়ার
+                                                    লিগ?</b></h6><br>
+                                        </a>
+                                        <p class="card-text text-secondary text-center"><small>
+                                                ইংলিশ প্রিমিয়ার লিগের শিরোপা
+                                                লড়াইয়ে টান টান উত্তেজনা।
+                                                অপটার হিসেবে
+                                                আর্সেনাল ফেবারিট হলেও,
+                                                ম্যানচেস্টার সিটিকে হিসাবের
+                                                বাইরে রাখার সুযোগ
+                                                নেই। পয়েন্ট টেবিল...…
+                                            </small></p>
+                                        <p class="text-center text-secondary"><small>১৩
+                                                ঘন্টা আগে</small></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#newsCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-dark"></span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#newsCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-dark"></span>
+                </button>
+
+            </div>
+
+        </div>
+    </div>
+    <div>
+        <div class="container-fluid bg-danger bg-opacity-10 ">
+            <div class="row p-3 start-50 ms-5 me-3">
+                <div class="col-md-3">
+                    <img src="https://media.prothomalo.com/prothomalo-bangla%2F2023-10%2F5bf724d1-cf3d-4bba-95e9-6b6bff9c34b3%2F143.jpg?rect=0%2C0%2C792%2C289&w=320&auto=format%2Ccompress&fmt=avif"
+                        alt="image" class="img-fluid opacity-50 w-75">
+                </div>
+                <div class="col-md-3">
+                    <img src="https://media.prothomalo.com/prothomalo-bangla%2F2026-05-03%2Fhhyeqypb%2Fpic.png?rect=0%2C190%2C1920%2C700&w=320&auto=format%2Ccompress&fmt=avif"
+                        alt="image1.1" class="img-fluid opacity-50 w-75">
+                </div>
+                <div class="col-md-3">
+                    <img src="https://media.prothomalo.com/prothomalo-bangla%2F2026-05-03%2Futc52pf8%2FFajrinMuzdalifah.jpg?rect=0%2C145%2C960%2C350&w=320&auto=format%2Ccompress&fmt=avif"
+                        alt="image1.2" class="img-fluid opacity-50 w-75">
+                </div>
+                <div class="col-md-3">
+                    <img src="https://media.prothomalo.com/prothomalo-bangla%2F2026-05-03%2F0zwufarw%2FNilsOlavinspectstheKingsGuardofNorwayafterbeingbestowedwithaknighthoodatEdinburghZooinScotland.jpg?rect=0%2C294%2C3611%2C1317&w=320&auto=format%2Ccompress&fmt=avif"
+                        alt="image1.3" class="img-fluid opacity-50 w-75">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- prothom alo.com panel -->
+    <div class="container p-3 border-bottom">
+        <div class="container mt-4 d-flex">
+            <img src="sun logo.png" alt="sunLogo" style="width: 40px; height: 40px">
+            <p style="font-size: 24px;"><strong>prothomalo.com</strong></p>
+        </div>
+        <div class="container mt-3 mb-3 d-flex justify-content-evenly" style="font-size: 14px;">
+            <div class="row">
+                <p>নাগরিক সংবাদ</p>
+                <p>ইপেপার</p>
+            </div>
+            <div class="row">
+                <p>কিশোর আলো</p>
+                <p>প্রথমা</p>
+            </div>
+            <div class="row">
+                <p>বিজ্ঞানচিন্তা</p><br>
+                <p>মোবাইল ভ্যাস</p>
+            </div>
+            <p>প্রথম আলো ট্রাস্ট</p>
+            <div class="col-md-1 ms-5">
+                <p>বন্ধুসভা</p>
+            </div>
+            <p>চিরন্তন ১৯৭১</p>
+        </div>
+
+        <!-- link panel -->
+        <div>
+            <div class="container mb-4 border-top align-items-center justify-content-between">
+                <div class="d-flex justify-content-between">
+                    <p class="mt-2 ms-5" style="font-size: 12px;"><small>অনুসরণ
+                            করুন</small></p>
+                    <p class="mt-2 ms-5 me-4" style="font-size: 12px;"><small>মোবাইল অ্যাপস
+                            ডাউনলোড করুন</small></p>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <div class="container d-flex align-items-baseline">
+                        <a href="https://www.facebook.com/DailyProthomAlo/" target="_blank" class="nav-link"><img
+                                src="data:image/jpeg;base64,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"
+                                alt="facebook icon" style="width: 40px; height: 40px;"></a>
+
+                        <a href="https://x.com/ProthomAlo" target="_blank" class="nav-link ms-1"><img
+                                src="data:image/png;base64,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"
+                                alt="X icon" style="width: 37px; height: 30x;"></a>
+
+                        <a href="https://www.instagram.com/prothomalo/" target="_blank" class="nav-link"><img
+                                src="data:image/jpeg;base64,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"
+                                alt="instagram icon" style="width: 50px; height: 50px;"></a>
+
+                        <a href="https://www.youtube.com/Prothomalo" target="_blank" class="nav-link"><img
+                                src="data:image/jpeg;base64,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"
+                                alt="Youtube icon" style="width: 35px; height: 35px;"></a>
+
+                        <a href="https://news.google.com/home?hl=bn&gl=BD&ceid=BD:bn" target="_blank"
+                            class="nav-link"><img
+                                src="data:image/png;base64,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"
+                                alt="Google news icon" class="rounded" style="width: 40px; height: 40px;"></a>
+                    </div>
+
+                    <!-- app panel -->
+                    <div class="d-flex me-3">
+                        <img src="play stor.jpg" alt="play stor image" class="me-2img-fluid hover-img nav-link"
+                            style="width: 100px; height: 30px;">
+                        <img src="istor.jpg" alt="apple store image" class="ms-2 img-fluid hover-img nav-link"
+                            style="width: 100px; height: 30px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container border-bottom border-top">
+            <div class="container mt-1 d-flex justify-content-center text-secondary" style="font-size:14px;">
+                <div class="me-3">
+                    <small>আমাদের সম্পর্কে●</small>
+                </div>
+                <div class="me-3">
+                    <small> বিজ্ঞাপন●</small>
+                </div>
+                <div class="me-3">
+                    <small> সার্কুলেশন●</small>
+                </div>
+                <div class="me-3">
+                    <small> নীতি ও শর্ত●</small>
+                </div>
+                <div class="me-3">
+                    <small> যোগাযোগ●</small>
+                </div>
+                <div class="me-3">
+                    <small>নিউজলেটার●</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-1 d-flex justify-content-center text-secondary">
+            <div style="font-size: 12px;">
+                <small>স্বত্ব © ১৯৯৮-২০২৬ প্রথম আলো |
+                    সম্পাদক ও প্রকাশক: মতিউর রহমান</small>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="text-white text-center p-2 sticky-bottom" style="background-color:rgb(8, 8, 66)">
+        <small class="mb-0">By using this site, you agree to our <u>Privacy
+                Policy.</u></small>
+        <a href="#"> <button type="button" class="btn btn-primary">
+                OK</button></a>
+    </footer>
+    <!-- Bootstrap JS file link -->
+    <!-- <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
